@@ -19,6 +19,7 @@
   "scripts": {
     "dev": "rollup -w -c",
     "build": "rollup -c",
+    "prepare": "npm run build",
     "test": "npm run build && npm run test:unit",
     "test:unit": "jest",
     "test:unit:watch": "jest --watch"
